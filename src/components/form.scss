@@ -1,0 +1,73 @@
+.add-todo-form {
+	width: 500px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	background-color: aqua;
+
+	.todo-input {
+		width: 180px;
+		height: 40px;
+		border: none;
+		outline: none;
+		padding-left: 5px;
+	}
+
+	.add-todo-button {
+		background-color: rgb(90, 193, 90);
+		border: none;
+		padding: 10px 20px;
+		color: white;
+		cursor: pointer;
+		border-radius: 5px;
+		transition: all 0.3s;
+
+		&:hover {
+			background-color: green;
+		}
+		&:active {
+			background-color: greenyellow;
+		}
+	}
+}
+.block {
+	width: 500px;
+	height: 80px;
+	background-color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+
+	.li-text {
+		background-color: red;
+		width: 120px;
+		height: 40px;
+		text-align: center;
+		padding-top: 10px;
+		list-style: none;
+		color: white;
+	}
+}
+
+.delete {
+	background-color: red;
+	padding: 10px 20px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: all 0.3s;
+  position: relative;
+  top: 57px;
+  left: 400px;
+
+	&:hover {
+		background-color: tomato;
+	}
+	&:active {
+		background-color: rgb(213, 0, 0);
+	}
+}
